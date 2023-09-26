@@ -1,0 +1,7 @@
+<div class="form-group">
+    <label for="myComboBox">Selecione Um Tamanho:</label>
+    <select id="myComboBox" class="form-control" [(ngModel)]="selectedOption">
+      <option *ngFor="let option of options" [value]="option">{{ option }}</option>
+    </select>
+  </div>
+  

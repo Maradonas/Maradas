@@ -1,0 +1,8 @@
+<h2>Faça a sua lista de desejos</h2>
+<form (ngSubmit)="cadastrarDesejo()">
+  <input type="text" [(ngModel)]="novoDesejo" name="novoDesejo" placeholder="Digite seu desejo">
+  <button  type="submit">Cadastrar</button>
+</form>
+<ul>
+  <li *ngFor="let desejo of desejos">{{ desejo.descricao }}</li>
+</ul>

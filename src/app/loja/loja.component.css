@@ -1,0 +1,177 @@
+/* Reset de estilos para garantir uma base consistente */
+html, body, div, p, a, img, ul, ol, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    padding: 2%;
+    text-align: center;
+    font-size: 3em;
+  }
+  
+
+  /* Estilos globais */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para barra de navegação */
+  nav {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 20px;
+    font-size: 18px;
+  }
+  
+  /* Estilos para títulos de página */
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+  }
+  
+  /* Estilos para botões */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Estilos para links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para formulários */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  /* Estilos para listas */
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  /* Estilos para imagens */
+  img {
+    max-width: 30%;
+    height: 50%;
+    margin-left: 190px;
+    margin-right: 80px;
+  }
+  
+  /* Estilos para caixas de produto */
+  .produto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  /* Estilos para ofertas especiais */
+  #ofertas-especiais {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #ofertas-especiais .produto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para a lista de desejos */
+  #lista-de-desejos {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #lista-de-desejos ul {
+    padding: 0;
+  }
+  
+  #lista-de-desejos li {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .produto {
+    display: flex;
+    align-items: center; /* Alinhar verticalmente ao centro */
+    
+
+  }
+  
+  .conteudo {
+    display: flex;
+    align-items: center; /* Alinhar verticalmente ao centro */
+}
+
+  
+  .texto {
+    margin-left: 2px; /* Adicionar espaçamento à esquerda para separar a imagem do texto */
+  }
+  

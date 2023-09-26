@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ofertas Especiais</title>
+ 
+</head>
+<body>
+  <h2>Ofertas Especiais para você</h2>
+  <div *ngFor="let oferta of ofertas">
+    <div class="produto">
+      <img [src]="'assets/' + oferta.imagem" alt="{{ oferta.nome }}">
+      <p class="nome">{{ oferta.nome }}</p>
+      <p>Preço Especial: <span class="preco">R$ {{ oferta.preco }}</span></p>
+    </div>
+  </div>
+</body>
+</html>
